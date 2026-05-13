@@ -8,10 +8,10 @@ function calcularMediaDeDoisNumeros (valor1 , valor2 ) {
     const resultadoSomaDeDoisValores = somarDoisNumeros ( valor1 , valor2 ); 
 
     //2. Divide pela quantidade de números passados 
-    const resultadoDaMedicaDeDoisValores = resultadoSomaDeDoisValores / 2 ;
+    const resultadoDaMediaDeDoisValores = resultadoSomaDeDoisValores / 2 ;
 
     //3. Retornar o resultado
-    return resultadoDaMedicaDeDoisValores;
+    return resultadoDaMediaDeDoisValores;
 }
 
 module.exports = {
